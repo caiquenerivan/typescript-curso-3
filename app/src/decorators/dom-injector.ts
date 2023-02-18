@@ -11,7 +11,6 @@ export function domInjector(seletor: string){
                 console.log(`Buscando elemento do DOM com o ${seletor} para injetar em ${propertyKey}`);
             }
             return elemento;
-            
         }
 
         Object.defineProperty(
